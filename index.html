@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Corrida Entre Amigos</title>
+</head>
+<body>
+    <header>
+        <h1>Corrida Maluca Entre Amigos</h1>
+    </header>
+    <main>
+        <div id="background"> 
+            <h2>Configurações da corrida</h2>
+            <div id="config"> 
+                <h2 class="identidade">Carro Pedro</h2>
+                <span class="config">
+                    Velocidade Máxima: 230km/h - Velocidade Máxima: 150km/h - Taxa de derrapagem: 3%
+                </span>
+                <h2 class="identidade">Carro Juca</h2>
+                <span class="config">
+                    Velocidade Mínima: 120 km/h - Velocidade Máxima: 260 km/h - Derrapagem: 5% 
+                </span>
+                <h2 class="identidade">Carro Edna</h2>
+                <span class="config">
+                    Velocidade Mínima: 180 km/h - Velocidade Máxima: 220 km/h - Derrapagem: 1%                 
+                </span>
+                <br /><br /><br /><br />
+                <div id="bt">
+                    <button type="button" onclick="{compararvelocidade(10)}">Corrida Rápida 10 Voltas</button>
+                    <button type="button" onclick="{compararvelocidade(70)}">Grande Prêmio 70 Voltas</button>
+                    <button type="button" onclick="{compararvelocidade(160)}">Enduro 160 Voltas</button>
+                 </div>
+                <h2 id="vencedor"></h2> 
+            </div>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
